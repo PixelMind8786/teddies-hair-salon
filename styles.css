@@ -262,7 +262,7 @@ p {
 }
 
 .logo-small {
-    height: 60px;
+    height: 48px;
     width: auto;
     object-fit: contain;
 }
@@ -392,6 +392,7 @@ p {
     z-index: 1;
     padding: 2rem;
     max-width: 900px;
+    margin-top: -10vh;
 }
 
 .hero__logo {
@@ -448,7 +449,7 @@ p {
 
 .hero__scroll {
     position: absolute;
-    bottom: 2rem;
+    bottom: 1.5rem;
     left: 50%;
     transform: translateX(-50%);
     animation: bounce 2s infinite;
